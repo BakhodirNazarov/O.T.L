@@ -1,0 +1,219 @@
+@font-face {
+    font-family: 'Dom Casual BT';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Dom Casual BT'), local('DomCasualBT-Regular'),
+    url(fonts/dom.woff) format('woff'),
+    url(fonts/dom.ttf) format('truetype');
+}
+body{
+  margin: 0px;
+  padding: 0px;
+  color: #353131;
+  font: 15px 'roboto-l', Helvetica, sans-serif;
+  background: repeating-linear-gradient( -73deg, #222, #1b1b1b 2px, #333 4px, #333333 9px);
+}
+.dom{
+	font-family: 'Dom Casual BT', arial;
+  font-size: 39px;
+  text-transform: uppercase;
+}
+.dommin{
+  font-family: 'Dom Casual BT', arial;
+  font-size: 29px;
+  text-transform: capitalize;
+}
+
+.wrapper{
+  width: 981px;
+  margin: 0 auto;
+  background: #fff;
+}
+.logo{
+  position: relative;
+  top: 40px;
+  left: 23px;
+}
+
+#logo{
+  width: 102px;
+  height: 102px;
+}
+
+#title{
+  width: 388px;
+}
+
+.title{
+  position: relative;
+  top: 17px;
+  left: 162px;
+}
+
+.smedias{
+  position: relative;
+  left: 284px;
+  display: inline-block;
+  top: 41px;
+}
+.smedias img{
+  width: 47px;
+}
+#fb{
+  border-radius: 11px;
+}
+
+.soc{
+  margin-left: 13px;
+}
+
+.menu{
+  margin: 73px 0px 0px;
+  border-top: 1px solid #dfd9d9;
+  border-bottom: 1px solid #dfd9d9;
+  padding: 0px 115px;
+}
+
+.menu li{
+  display: inline-block;
+  font-size: 14px;
+  margin: 20px -1px;
+  margin-left: -5px;
+  transition: 0.35s ease;
+  border-top: 5px solid transparent;
+  border-bottom: 5px solid transparent;
+}
+.menu li:first-child{
+  margin-left: 11px;
+}
+
+.menu li a:hover{
+  border-top: 5px solid #ea525c;
+  border-bottom: 5px solid #ea525c;
+    color: #e31e24;
+}
+
+.menu li a{
+  text-decoration: none;
+  color: #524d4d;
+  padding: 21px;
+  font-size: 26px;
+
+}
+/************** Start Center ****************/
+.center{
+  display: inline-block;
+}
+
+.slider{
+  margin: 30px 40px;
+}
+
+.slider-item{
+  width: 900px;
+  height: 450px;
+    position: relative;
+}
+
+
+
+#next{
+
+  left: 839px;
+
+}
+#prev{
+left:-17px;
+}
+#next, #prev {
+  cursor: pointer;
+  position: absolute;
+ top: 209px;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  width: 50px;
+}
+#prev img{
+    width:50px;
+}
+#next img{
+    width:50px;
+}
+.h1{
+  font-size: 35px;
+  color: #e31e24;
+  text-align: center;
+  border-top: 1px solid #efefef;
+  padding: 50px 100px;
+  font-weight: normal;
+}
+
+.menu1{
+  padding: 52px 150px 50px;
+  text-align: center;
+  margin: 0;
+}
+
+.menu1 li{
+  list-style-type: none;
+  display: inline-block;
+   margin: 20px 0px;
+  
+}
+
+.menu1 li a:hover{
+  color: #e31e24;
+}
+
+.menu1 li a{
+  text-decoration: none;
+   color: black;
+  transition: 0.3s;
+  padding: 20px 10px 20px 20px;
+  font-size: 19px;
+}
+
+#title1{
+  width: 250px;
+  position: relative;
+  bottom: 40px;
+  left: 354px;
+}
+.slider{
+    overflow: hidden;
+}
+.slider ul{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    display: flex;
+}
+.slider ul li{
+    display: inline-block;
+    width:  900px;
+    height: 450px;
+}
+.copyrigth{
+  margin-left: 15px;
+}
+#sdel{
+  font-size: 38px
+}
+.bringo{
+  padding-top: 40px;
+}
+.wrapper2{
+  width: 981px;
+  margin: 0 auto;
+}
+.tgimg{
+  width: 500px;
+  height: 450px;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+/*Designed and Made By Saydolim and Bakhodir*/

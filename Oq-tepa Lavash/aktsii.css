@@ -1,0 +1,60 @@
+.fleft{
+  float: left;
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.fright{
+  float: right;
+}
+
+.headline{
+  color: #e31e24;
+  font-size: 26px;
+  text-align: center;
+}
+
+.aktsii-item{
+  border-top: 1px solid #bbb;
+  border-bottom: 1px solid #bbb;
+  padding: 10px 5px;
+}
+
+.aktsii-photos{
+  width: 450px;
+  height: 350px;
+}
+
+.desc{
+  display: inline-block;
+  width: 500px;
+  margin-left: 18px;
+}
+
+.h2{
+  font-family: 'pt_sans-r';
+  font-size: 27px;
+  font-weight: normal;
+  color: #e31e24;
+}
+
+.prev{
+  position: relative;
+  left: -6px;
+  bottom: -15px;
+}
+
+.next{
+  position: relative;
+  right: -918px;
+  bottom: -15px;
+}
+.hr{
+  margin-top: 25px;
+  color: #bbb;
+  background-color: #bbb;
+}

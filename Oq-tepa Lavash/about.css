@@ -1,0 +1,27 @@
+.about{
+  border-top: 2px solid #bbb;
+  border-bottom: 2px solid #bbb;
+}
+
+.headline {
+    color: #e31e24;
+    font-size: 26px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.p{
+    display: inline-block;
+}
+
+.desc{
+  display: inline-block;
+  margin-left: 15px;
+  width: 500px;
+  float: left;
+}
+
+.img{
+  width: 350px;
+  margin: 10px 58px;
+}

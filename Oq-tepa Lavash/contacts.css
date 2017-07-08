@@ -1,0 +1,76 @@
+.headline{
+  color: #e31e24;
+  font-size: 26px;
+  text-align: center;
+  font-weight: normal;
+}
+
+.contact{
+  border-top: 2px solid #bbb;
+  border-bottom: 2px solid #bbb;
+  padding: 15px 10px;
+}
+
+.links{
+  color: #e31e24;
+  font-size: 20px;
+}
+
+.branch{
+  width: 550px;
+  display: inline-block;
+  margin-left: 60px;
+}
+
+.del{
+  padding: 20px 25px;
+  background-color: #2da5e3;
+  display: inline-block;
+  text-decoration: none;
+  font-size: 20px;
+  border-radius: 5px;
+  color: white;
+	margin-left: 386px;
+}
+
+.get{
+  display: inline-block;
+  border-radius: 10px;
+
+}
+.get p{
+	font-size: 17px;
+}
+
+.before{
+  margin: 10px 0 0 0;
+  padding: 0px;
+  display: inline-block;
+  position: relative;
+
+}
+
+
+.before::before{
+  content: "";
+  display: inline-block;
+  margin-right: 15px;
+  width: 70px;
+  height: 70px;
+  background: url(img/logobfr.png);
+  float: left;
+  margin-top: 10px;
+}
+.anchor{
+    color: #fff;
+    background-color: #e63d4a;
+    border-radius: 3px;
+    padding: 12px 20px;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 24px;
+    font-weight: 600;
+    position: absolute;
+    left: 593px;
+    top: 25px;
+}
